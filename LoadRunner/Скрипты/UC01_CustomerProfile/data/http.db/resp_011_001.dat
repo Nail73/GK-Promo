@@ -1,7 +1,0 @@
-<IE11DefaultFREConfig>
-  <TimeOffBetweenFREsInHours value="24" />
-  <market locale="ru-ru">
-    <config modalDefaultOption="1" maxOfferShowCount="1" offerType="1" modalOfferInterval="360" offerInterval="365" osSkuCategory="nonconsumer" />
-    <edgeConfig offerType="0" offerInterval="365" osSkuCategory="nonconsumer" />
-  </market>
-</IE11DefaultFREConfig>

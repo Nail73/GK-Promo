@@ -1,2 +1,0 @@
-"username=POO&password=bean&passwordConfirm=bean&firstName=dfgd&lastName=dgd&address1=ddfgd&add"
-"ress2=dgf&register.x=64&register.y=4"

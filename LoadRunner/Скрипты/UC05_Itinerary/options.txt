@@ -1,9 +1,0 @@
--+
--DCCI
--D_IDA_XL
--DWINNT
--IC:\Users\Гульнара\Desktop\LoadRunner\LoadRunner_Works\Скрипты\UC05_Itinerary
--IC:\Program Files (x86)\Micro Focus\LoadRunner\include
--ec:\users\гульнара\desktop\loadrunner\loadrunner_works\скрипты\uc05_itinerary\\logfile.log
-c:\users\гульнара\desktop\loadrunner\loadrunner_works\скрипты\uc05_itinerary\\combined_UC05_Itinerary.c
-c:\users\гульнара\desktop\loadrunner\loadrunner_works\скрипты\uc05_itinerary\\pre_cci.c

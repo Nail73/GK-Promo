@@ -1,9 +1,0 @@
--+
--DCCI
--D_IDA_XL
--DWINNT
--IC:\Users\Гульнара\Desktop\LoadRunner\LoadRunner_Works\Скрипты\UC06_SearchTicket
--IC:\Program Files (x86)\Micro Focus\LoadRunner\include
--ec:\users\гульнара\desktop\loadrunner\loadrunner_works\скрипты\uc06_searchticket\\logfile.log
-c:\users\гульнара\desktop\loadrunner\loadrunner_works\скрипты\uc06_searchticket\\combined_UC06_SearchTicket.c
-c:\users\гульнара\desktop\loadrunner\loadrunner_works\скрипты\uc06_searchticket\\pre_cci.c

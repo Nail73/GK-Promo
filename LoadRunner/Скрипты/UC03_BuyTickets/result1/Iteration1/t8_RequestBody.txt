@@ -1,3 +1,0 @@
-"firstName=Jojo&lastName=Bean&address1=Lenina&address2=Kiev&pass1=Jojo++Bean&creditCard=2119079"
-"68&expDate=7956&oldCCOption=&numPassengers=1&seatType=Window&seatPref=Coach&outboundFlight=640"
-"%3B622%3B07%2F17%2F2022&advanceDiscount=0&buyFlights.x=63&buyFlights.y=6&.cgifields=saveCC"

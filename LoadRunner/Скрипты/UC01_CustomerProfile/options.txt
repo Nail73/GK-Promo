@@ -1,9 +1,0 @@
--+
--DCCI
--D_IDA_XL
--DWINNT
--IC:\Users\Гульнара\Desktop\LoadRunner\LoadRunner_Works\Скрипты\UC01_CustomerProfile
--IC:\Program Files (x86)\Micro Focus\LoadRunner\include
--ec:\users\гульнара\desktop\loadrunner\loadrunner_works\скрипты\uc01_customerprofile\\logfile.log
-c:\users\гульнара\desktop\loadrunner\loadrunner_works\скрипты\uc01_customerprofile\\combined_UC01_CustomerProfile.c
-c:\users\гульнара\desktop\loadrunner\loadrunner_works\скрипты\uc01_customerprofile\\pre_cci.c

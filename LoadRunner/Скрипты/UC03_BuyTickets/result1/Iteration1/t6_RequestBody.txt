@@ -1,3 +1,0 @@
-"advanceDiscount=0&depart=San+Francisco&departDate=07%2F17%2F2022&arrive=Paris&returnDate=07%2F"
-"21%2F2022&numPassengers=1&seatPref=Window&seatType=Coach&.cgifields=Coach&.cgifields=Window&fi"
-"ndFlights.x=38&findFlights.y=6&.cgifields=seatType&.cgifields=seatPref"
