@@ -1,1 +1,0 @@
-"{\"categoryId\":3,\"email\":\"mail@mail.ru\",\"productId\":18,\"text\":\"hello world\"}"

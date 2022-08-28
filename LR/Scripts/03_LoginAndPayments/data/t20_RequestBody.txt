@@ -1,7 +1,0 @@
-"<?xml version=\"1.0\" encoding=\"UTF-8\"?><soap:Envelope xmlns:soap=\"http://schemas.xmlsoap.o"
-"rg/soap/envelope/\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:xsd=\"http:/"
-"/www.w3.org/2001/XMLSchema\"><soap:Body><AddMasterCreditMethodRequest xmlns=\"com.advantage.on"
-"line.store.accountservice\"><cardNumber>4886488612151515</cardNumber><expirationDate>122027</e"
-"xpirationDate><cvvNumber>454</cvvNumber><customerName>Jojo</customerName><accountId>583919293<"
-"/accountId><base64Token>Basic Sm9qbzE6QmVhbjE=</base64Token></AddMasterCreditMethodRequest></s"
-"oap:Body></soap:Envelope>"

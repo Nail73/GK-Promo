@@ -1,9 +1,0 @@
--+
--DCCI
--D_IDA_XL
--DWINNT
--IC:\Users\Гульнара\Documents\VuGen\Scripts\01_BuyAndBasket
--IC:\Program Files (x86)\Micro Focus\LoadRunner\include
--ec:\users\гульнара\documents\vugen\scripts\01_buyandbasket\\logfile.log
-c:\users\гульнара\documents\vugen\scripts\01_buyandbasket\\combined_01_BuyAndBasket.c
-c:\users\гульнара\documents\vugen\scripts\01_buyandbasket\\pre_cci.c

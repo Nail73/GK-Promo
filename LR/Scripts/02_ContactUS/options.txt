@@ -1,9 +1,0 @@
--+
--DCCI
--D_IDA_XL
--DWINNT
--IC:\Users\Гульнара\Documents\VuGen\Scripts\02_ContactUS
--IC:\Program Files (x86)\Micro Focus\LoadRunner\include
--ec:\users\гульнара\documents\vugen\scripts\02_contactus\\logfile.log
-c:\users\гульнара\documents\vugen\scripts\02_contactus\\combined_02_ContactUS.c
-c:\users\гульнара\documents\vugen\scripts\02_contactus\\pre_cci.c

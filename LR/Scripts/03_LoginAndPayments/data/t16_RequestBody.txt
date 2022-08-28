@@ -1,4 +1,0 @@
-"{\"seaddress\":{\"addressLine1\":\"\",\"addressLine2\":\"\",\"city\":\"\",\"country\":\"us\",\""
-"postalCode\":\"\",\"state\":\"\"},\"secustomerName\":\"Jojo1 \",\"secustomerPhone\":\"\",\"sen"
-"umberOfProducts\":4,\"setransactionType\":\"SHIPPING_COST\",\"sessionId\":\"0F63C8D138A2B52B36"
-"FED1FF9129C315\"}"

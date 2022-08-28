@@ -1,5 +1,0 @@
-"<?xml version=\"1.0\" encoding=\"UTF-8\"?><soap:Envelope xmlns:soap=\"http://schemas.xmlsoap.o"
-"rg/soap/envelope/\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:xsd=\"http:/"
-"/www.w3.org/2001/XMLSchema\"><soap:Body><AccountLoginRequest xmlns=\"com.advantage.online.stor"
-"e.accountservice\"><email></email><loginPassword>Bean1</loginPassword><loginUser>Jojo1</loginU"
-"ser></AccountLoginRequest></soap:Body></soap:Envelope>"

@@ -1,1 +1,0 @@
-"{"categoryId":3,"email":"gh7j@mail.ru","productId":18,"text":"artem478 hello world"}"

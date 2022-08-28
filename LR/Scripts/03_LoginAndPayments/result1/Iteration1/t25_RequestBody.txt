@@ -1,3 +1,0 @@
-"{"seaddress":{"addressLine1":"","addressLine2":"","city":"","country":"us","postalCode":"","st"
-"ate":""},"secustomerName":"Jojo1 ","secustomerPhone":"","senumberOfProducts":4,"setransactionT"
-"ype":"SHIPPING_COST","sessionId":"0F63C8D138A2B52B36FED1FF9129C315"}"
