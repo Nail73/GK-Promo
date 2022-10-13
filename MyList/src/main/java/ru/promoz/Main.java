@@ -1,13 +1,11 @@
 package ru.promoz;
 
-import java.util.Arrays;
-import java.util.Comparator;
-import java.util.List;
+import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
 
-        Integer[] list1 = new Integer[]{1, 2, 3, 4, 5};
+        Integer[] list1 = new Integer[]{6, 1, 9, 3, 8};
         String[] list2 = new String[]{
                 "IT company",
                 "Construction company",
@@ -27,9 +25,13 @@ public class Main {
         myList1.sort(Comparator.naturalOrder());
         myList2.sort(Comparator.comparing(String::toString));
         myList3.sort(Comparator.comparing(Object::toString));
+
         System.out.println(Arrays.toString(myList1.toArray()));
         System.out.println(Arrays.toString(myList2.toArray()));
         System.out.println(Arrays.toString(myList3.toArray()));
+
+        System.out.println(MySearch.bruteForceSearchInList(myList2, "IT company"));
+        System.out.println(MySearch.binarySearchInList(myList2, "Consulting company"));
 
         System.out.println("Collection size myList1: " + myList1.size());
         System.out.println("Collection size myList2: " + myList2.size());
