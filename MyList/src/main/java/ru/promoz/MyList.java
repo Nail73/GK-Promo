@@ -1,13 +1,9 @@
 package ru.promoz;
 
-import java.util.Arrays;
-import java.util.List;
-import java.util.Collection;
-import java.util.NoSuchElementException;
-import java.util.ListIterator;
-import java.util.Iterator;
+import java.util.*;
 
-public class MyList<T> implements List<T>, AuthorHolder {
+public class MyList<T> extends MySearch implements List<T>, AuthorHolder {
+
     private T[] item = (T[]) new Object[1];
     private int size;
 
@@ -15,6 +11,55 @@ public class MyList<T> implements List<T>, AuthorHolder {
     }
 
     public MyList(T[] list) {
+        super();
+    }
+
+    @Override
+    public void sort(Comparator<? super T> c) {
+        if (c == null) {
+            c = (Comparator<T>) (o1, o2) -> ((Comparable) o1).compareTo(o2);
+        }
+        QuickSort sort = new QuickSort(c);
+        sort.quicksort((T[]) item);
+
+    }
+
+    private class QuickSort {
+        private final Comparator<? super T> c;
+
+        QuickSort(Comparator<? super T> comparator) {
+            c = comparator;
+        }
+
+        public void quicksort(T[] a) {
+            quicksort((T[]) item, 0, size - 1);
+        }
+
+        private void quicksort(T[] arr, int begin, int end) {
+            if (begin < end) {
+                int partitionIndex = partition(arr, begin, end);
+                quicksort(arr, begin, partitionIndex - 1);
+                quicksort(arr, partitionIndex + 1, end);
+            }
+        }
+
+        private int partition(T arr[], int begin, int end) {
+            T pivot = arr[end];
+            int i = (begin - 1);
+            for (int j = begin; j < end; j++) {
+                if (c.compare(arr[j], pivot) <= 0) {
+                    i++;
+                    T swapTemp = arr[i];
+                    arr[i] = arr[j];
+                    arr[j] = swapTemp;
+                }
+            }
+            T swapTemp = arr[i + 1];
+            arr[i + 1] = arr[end];
+            arr[end] = swapTemp;
+
+            return i + 1;
+        }
     }
 
     @Override
@@ -200,6 +245,7 @@ public class MyList<T> implements List<T>, AuthorHolder {
     public String toString() {
         return Arrays.toString(item);
     }
+
 
     private class ElementsIterator implements ListIterator<T> {
         private int index;
